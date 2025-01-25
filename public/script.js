@@ -6,7 +6,6 @@ const sendBtn = document.getElementById('sendBtn');
 const exitBtn = document.getElementById('exitBtn');
 const emojiBtn = document.getElementById('emojiBtn');
 const gifBtn = document.getElementById('gifBtn');
-import { io } from "socket.io-client";
 <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
 
 let socket, roomId;
