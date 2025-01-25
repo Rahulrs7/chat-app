@@ -1,4 +1,4 @@
-import { io } from "socket.io-client";
+// import { io } from "socket.io-client";
 
 const connectBtn = document.getElementById('startChatBtn');
 const chatRoom = document.getElementById('chatRoom');
