@@ -36,7 +36,7 @@ function startNewChat() {
 
     // Initialize new socket connection
     // socket = io('http://localhost:3000');
-    socket=io('https://tf96f7cs-3000.inc1.devtunnels.ms/') 
+    socket=io('https://chat-app-black-psi.vercel.app/') 
     // Replace with port-forwarded URL as needed
 
     chatRoom.classList.remove('hidden');
