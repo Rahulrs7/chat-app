@@ -38,7 +38,7 @@ function startNewChat() {
     if (socket) socket.disconnect(); // Close any existing connection
 
     // Initialize new socket connection
-    socket = io('https://chat-app-fawn-kappa-31.vercel.app/');
+    socket = io('https://chat-app-8um8.onrender.com/');
     // socket=io('https://chat-app-black-psi.vercel.app/') 
     // Replace with port-forwarded URL as needed
 
