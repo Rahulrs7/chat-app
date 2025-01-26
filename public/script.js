@@ -38,8 +38,8 @@ function startNewChat() {
     if (socket) socket.disconnect(); // Close any existing connection
 
     // Initialize new socket connection
-    // socket = io('http://localhost:3000');
-    socket=io('https://chat-app-black-psi.vercel.app/') 
+    socket = io('https://chat-app-fawn-kappa-31.vercel.app/');
+    // socket=io('https://chat-app-black-psi.vercel.app/') 
     // Replace with port-forwarded URL as needed
 
     chatRoom.classList.remove('hidden');
